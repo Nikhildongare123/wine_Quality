@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the saved SVM model
-with open("svm_model_state26(1).pkl", "rb") as f:
+with open("svm_model_state26.pkl", "rb") as f:
     model = pickle.load(f)
 
 st.title("🍷 Wine Quality Prediction App By Nikhil 😎")
